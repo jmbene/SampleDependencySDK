@@ -4,8 +4,8 @@ platform :ios, '9.3'
 target 'SampleDependencySDK' do
   use_frameworks!
 
-  pod 'GoogleAnalytics'
   pod 'Alamofire'
+  pod 'GoogleAnalytics'
 
   target 'SampleDependencySDKTests' do
     inherit! :search_paths

@@ -9,9 +9,13 @@
 import Foundation
 import Alamofire
 
-class SampleCall {
+public class SampleCall {
     
-    func call(completion: @escaping (String) -> ()) {
+    public init() {
+    
+    }
+    
+    public func call(completion: @escaping (String) -> ()) {
         let event = GAIDictionaryBuilder.createEvent(
             withCategory: "category",
             action: "action",

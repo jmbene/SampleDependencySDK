@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char SampleDependencySDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SampleDependencySDK/PublicHeader.h>
 
-#include "GAI.h"
-#include "GAIDictionaryBuilder.h"
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"

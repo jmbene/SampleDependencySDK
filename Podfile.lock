@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.6.0)
+  - GoogleAnalytics (3.17.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleAnalytics
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+
+PODFILE CHECKSUM: 76af541e2e66eab1c84cb45fa484a5dce4ceeec6
+
+COCOAPODS: 1.4.0.beta.2

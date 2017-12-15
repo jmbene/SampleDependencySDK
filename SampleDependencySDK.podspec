@@ -92,9 +92,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}", "SampleDependencySDK/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
+#  s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  #s.public_header_files = "SampleDependencySDK/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "SampleDependencySDK"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -135,6 +135,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency "Alamofire"
-  s.dependency "GoogleAnalytics"
+#  s.dependency "GoogleAnalytics"
 
 end
